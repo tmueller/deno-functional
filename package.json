@@ -1,0 +1,12 @@
+{
+  "main": "src/main.ts",
+  "devDependencies": {
+    "deno_ls_plugin": "^0.1.0",
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "serve": "deno --allow-env --allow-net src/main.ts",
+    "test": "deno test/*.ts",
+    "update": "deno types > lib/lib.deno_runtime.d.ts"
+  }
+}
